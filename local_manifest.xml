@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- <remote name="opengapps" fetch="https://github.com/opengapps/"  /> -->
+  <!-- KERNELS -->
+  <!-- <project name="flar2/mata" path="kernel/essential/msm8998" revision="ElementalX-3.00" /> --> 
+  <!-- <project name="0ctobot/neutrino_kernel_essential_msm8998" path="kernel/essential/msm8998" revision="lineage-16.0/neutrino-msm-mata-4.4" /> -->
+  <!-- <project name="LineageOS/android_kernel_essential_msm8998" path="kernel/essential/msm8998" revision="lineage-16.0" remote="github" /> -->
+  <project name="dvandenburgh/android_kernel_essential_msm8998" path="kernel/essential/msm8998" revision="lineage-16.0" remote="github" />
+  <!-- DEVICES -->
+  <!--<project name="LineageOS/android_device_essential_mata" path="device/essential/mata" revision="lineage-16.0" remote="github" /> -->
+  <project name="dvandenburgh/proprietary_vendor_essential" path="vendor/essential" revision="lineage-16.0" remote="github" />
+  <!-- <project name="TheMuppets/proprietary_vendor_essential" path="vendor/essential" /> -->
+  <project name="dvandenburgh/android_device_essential_mata" path="device/essential/mata" revision="lineage-16.0" remote="github" /> 
+  <!-- OTHER STUFF -->
+  <!-- <project name="opengapps/opengapps" path="vendor/opengapps" revision="master" remote="github" /> -->
+  <!-- <project name="opengapps/aosp_build" path="vendor/opengapps/build" revision="master" remote="github" /> -->
+  <!-- arm64 depends on arm -->
+  <!-- <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" /> -->
+  <!-- <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps" /> -->
+  <!-- MICROG -->
+  <!-- <project name="lineageos4microg/android_prebuilts_prebuiltapks" path="packages/apps" revision="master" remote="github" /> -->
+  <!-- <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" /> -->
+ 
+</manifest>
